@@ -1,0 +1,79 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/ReactAppPullDataFromDotNetApi/node_modules
+/ReactAppPullDataFromDotNetApi/.pnp
+/ReactAppPullDataFromDotNetApi/.pnp.js
+
+# testing
+/ReactAppPullDataFromDotNetApi/coverage
+
+# production
+/ReactAppPullDataFromDotNetApi/build
+
+# misc
+/ReactAppPullDataFromDotNetApi/.DS_Store
+/ReactAppPullDataFromDotNetApi/.env.local
+/ReactAppPullDataFromDotNetApi/.env.development.local
+/ReactAppPullDataFromDotNetApi/.env.test.local
+/ReactAppPullDataFromDotNetApi/.env.production.local
+
+/ReactAppPullDataFromDotNetApi/npm-debug.log*
+/ReactAppPullDataFromDotNetApi/yarn-debug.log*
+/ReactAppPullDataFromDotNetApi/yarn-error.log*
+
+# User-specific files
+/DotNetTodoApi/*.suo
+/DotNetTodoApi/*.user
+/DotNetTodoApi/*.usercode
+/DotNetTodoApi/*.xrefmap
+
+# Build results
+/DotNetTodoApi/[Dd]ebug/
+/DotNetTodoApi/[Rr]elease/
+/DotNetTodoApi/[Bb]in/
+/DotNetTodoApi/[Oo]bj/
+/DotNetTodoApi/*.log
+/DotNetTodoApi/*.pfx
+/DotNetTodoApi/*.publishsettings
+/DotNetTodoApi/*.opendb
+# The following will ignore all build-related output from the dotnet CLI
+# (e.g. from dotnet run, dotnet test, dotnet build)
+/DotNetTodoApi/**/*.[Oo]bj/
+/DotNetTodoApi/**/*.[Bb]in/
+
+# Packages and libraries
+/DotNetTodoApi/[Pp]ackages/
+# Omit version numbers in packages directories
+/DotNetTodoApi/!**/.gitkeep
+# NuGet v3's project.json files produces more ignorable files
+/DotNetTodoApi/*.nuget.props
+/DotNetTodoApi/*.nuget.targets
+
+# Visual Studio files
+/DotNetTodoApi/.vs/
+/DotNetTodoApi/*.dbmdl
+/DotNetTodoApi/*.dbproj.schemaview
+/DotNetTodoApi/*.jfm
+/DotNetTodoApi/orleans.codegen.cs
+
+# Visual Studio Code files
+/DotNetTodoApi/.vscode/
+# Comment the following line if you want to upload launch.json and settings.json
+/DotNetTodoApi/!**/.vscode/*.json
+
+# Rider files
+/DotNetTodoApi/.idea/
+# Comment the following line if you want to upload .idea/workspace.xml
+/DotNetTodoApi/!**/.idea/workspace.xml
+
+# Project management files
+/DotNetTodoApi/Project_Readme.html
+/DotNetTodoApi/_UpgradeReport_Files/
+/DotNetTodoApi/Backup*/
+/DotNetTodoApi/UpgradeLog*.XML
+/DotNetTodoApi/UpgradeLog*.htm
+
+# Misc
+/DotNetTodoApi/[Tt]emp/
+/DotNetTodoApi/.env
