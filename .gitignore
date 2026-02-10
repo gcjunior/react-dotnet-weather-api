@@ -77,3 +77,4 @@
 # Misc
 /DotNetTodoApi/[Tt]emp/
 /DotNetTodoApi/.env
+/DotNetTodoApi/appsettings.Development.json
